@@ -17,7 +17,7 @@ function parzyste(tablica){
     let wynik=[];
     for(let i=0;i<tablica.length;i++){
         if(tablica[i]%2==0){
-            wynik.push(tablica[i])
+            wynik.push(tablica[i]);
         }
     }
 return wynik;
@@ -26,9 +26,9 @@ return wynik;
 jezyki=["HTML","CSS","JS"];
 reverse=[];
 for(let i=jezyki.length-1;i>=0;i--){
-    reverse.puch(jezyki[1])
+    reverse.push(jezyki[i]);
 }
-console.log(reverse)
+console.log(reverse);
 
 function czyJest(tablica,element){
     for(let i=0;i<tablica.length;i++){

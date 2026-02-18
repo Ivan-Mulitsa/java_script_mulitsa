@@ -26,4 +26,4 @@ console.log(max);
 
 let liczby2=[3,6,9,4,5];
 liczby2.unshift(5);
-liczby2.puch(17);
+liczby2.push(17);
